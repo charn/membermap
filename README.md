@@ -76,6 +76,6 @@ gulp
 
 ## Todo
 
-- This contains the members as a CSV: "https://docs.google.com/spreadsheets/d/1EKGZ6_XRW51oElvgACeq7LfW0QuHWfpYQ67m0OVG5Qc/export?gid=0&format=csv"
+- Here are the [members as a CSV](https://docs.google.com/spreadsheets/d/1EKGZ6_XRW51oElvgACeq7LfW0QuHWfpYQ67m0OVG5Qc/export?gid=0&format=csv).
     - Use papaparse to parse the CSV in the browser.
         - `"papaparse": "~4.1.0",` into bower.json
