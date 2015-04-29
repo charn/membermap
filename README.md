@@ -50,17 +50,6 @@ node_modules/.bin/gulp
 2. Publish the contents of `dist/`.
   The directory contains static files only.
 
-### What should publishing look like?
-```sh
-git clone https://github.com/okffi/membermap
-cd membermap
-npm install
-npm install -g gulp
-bower install
-gulp
-./publish
-```
-
 ## Note
 
 - Only members with the domicile set to a name of a Finnish municipality, in Finnish or in Swedish, are counted.
