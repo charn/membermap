@@ -66,7 +66,7 @@
 
     for (var i = 0; i < featureLength; ++i) {
       var feature = features[i];
-      var names = feature.properties.text;
+      var names = [feature.properties.NAMEFIN, feature.properties.NAMESWE];
       var firstName = names[0];
       var nameAmount = names.length;
       for (var j = 0; j < nameAmount; ++j) {
@@ -97,7 +97,7 @@
     var i;
 
     for (i = 0; i < featureLength; ++i) {
-      var firstName = augmented.features[i].properties.text[0];
+      var firstName = augmented.features[i].properties.NAMEFIN;
       var members = matched[firstName];
       if (members) {
         augmented.features[i].properties.amount = members;
@@ -131,7 +131,7 @@
           };
         },
         onEachFeature: function (feature, layer) {
-          layer.bindPopup(feature.properties.text[0] + ': ' +
+          layer.bindPopup(feature.properties.NAMEFIN + ': ' +
                           feature.properties.amount + '/' + totalMembers);
         }
       });
