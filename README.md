@@ -29,14 +29,14 @@ cd membermap
 1. Download and extract the data into a specific directory.
   Peek into `gml_to_geojson.sh` for the path.
 2. Run `./gml_to_geojson.sh` to transform the municipal boundaries from GML to GeoJSON and into the right spatial reference system.
-3. Copy the transformed file into `leaflet/app/images/`.
+3. Copy the transformed file into `leaflet/app/data/`.
 
 ### Prepare the member list
 
 1. Download the data into a specific file.
   Peek into `member_csv_to_json.sh` for the filename.
 2. Run `./member_csv_to_json.sh` to transform the CSV file into a JSON file.
-3. Copy the transformed file into `leaflet/app/images/`.
+3. Copy the transformed file into `leaflet/app/data/`.
 
 ### Build and publish the map
 
