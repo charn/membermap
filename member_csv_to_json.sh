@@ -5,7 +5,7 @@
 INPUT='members.csv'
 OUTPUT='located_members.json'
 
-tail -n +4 "${INPUT}" | \
+tail -n +2 "${INPUT}" | \
     sed '1s/^/name,residence\n/' | \
     csvjson > \
     "${OUTPUT}"
