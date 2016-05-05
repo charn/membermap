@@ -1,6 +1,6 @@
 #!/usr/bin/sh
 
-INPUT='kuntarajat/TietoaKuntajaosta_2015_4500k/SuomenKuntajako_2015_4500k.xml'
+INPUT='kuntarajat/TietoaKuntajaosta_2016_4500k/SuomenKuntajako_2016_4500k.dbf'
 OUTPUT='kuntarajat.geojson'
 
 [ -f "${OUTPUT}" ] && rm "${OUTPUT}"
